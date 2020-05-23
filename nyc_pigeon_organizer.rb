@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
   males.each do |name|
     hash[name] = {:color => [], :gender => ["male"], :lives => []}
   end
-  males.each do |name|
+  females.each do |name|
     hash[name] = {:color => [], :gender => ["female"], :lives => []}
   end
   color = data[:color]
