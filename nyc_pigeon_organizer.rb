@@ -5,10 +5,10 @@ def nyc_pigeon_organizer(data)
   #p all_birds
   hash = {}
   males.each do |name|
-    hash[name] = {:color => [], :gender => ["males"], :lives => []}
+    hash[name] = {:color => [], :gender => ["male"], :lives => []}
   end
   males.each do |name|
-    hash[name] = {:color => [], :gender => ["females"], :lives => []}
+    hash[name] = {:color => [], :gender => ["female"], :lives => []}
   end
   color = data[:color]
   color.each do |key,value|
